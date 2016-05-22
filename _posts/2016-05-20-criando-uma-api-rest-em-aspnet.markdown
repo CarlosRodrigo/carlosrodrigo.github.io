@@ -183,4 +183,4 @@ Caso tenha seguido todos os passo a passo você terá como resultado final algo 
 
 Dê uma olhada no [repositório][calculator-github]{:target="_blank"} para uma versão deste exemplo.
 
-[calculator-github]: https://github.com/CarlosRodrigo/
+[calculator-github]: https://github.com/CarlosRodrigo/calculator-webservice-example
