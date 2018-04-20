@@ -12,7 +12,7 @@
     <title>Carlos Garcia's portfolio</title>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
 
     <!-- devicon -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -65,9 +65,6 @@
                         <a class="page-scroll" href="#about" style="font-size:14px">Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resume" style="font-size:14px">Resume</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#experience" style="font-size:14px">Experience</a>
                     </li>
                     <li>
@@ -112,51 +109,49 @@
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About Me</h2>
+                    <a href="assets/resume-carlos-garcia.pdf" download>
+                        <button class="btn btn-primary">Resume</button>
+                    </a>
                     <hr>
                 </div>
             </div>
             <div class="row text-center newspaper">                
                 <h4 class="newspaper-headline">Career</h4>
-                <p>I am a senior at UVM seeking an internship in software engineering and/or software development. I am very passionate about software development and its cycle. I started programming since high school and in 2014 I had a 6 months software engineering internship acting as a full-stack developer, so I was involved in all the phases and I played different rules on the software development, besides I also constantly work to develop my technical and communication skills.
+                <p>
+                    I am a software engineer with a degree in computer science at UFRPE, with a 1 year fully funded 
+                    scholarship in the USA where I had the opportunity to study 9 months at UVM 
+                    and to intern for 3 months at a company called State Street. 
+                    I have experience in web systems development and RESTful APIs, unit testing, integration 
+                    and end-to-end, mobile development with android. In my years in college my focus was 
+                    on artificial intelligence and data science.
+                </p>
                 <h4 class="newspaper-headline">Personal</h4>
-                <p>I developed the habit of self education and I always try to learn new technologies and methods. I am also constantly trying to get better at collaboration, which I think is one key aspect to work in groups and develop better software. I always try to write clean and modular code using the best practices and object-oriented patterns. I use to write software that can be accessed by everyone, and thus Cross-platform. E.g. I have experience and I like to write RESTful web services so that later on I can create mobile, web  or even desktop clients that communicates to the same RESTful API with the same logic, methods and the same database.</p><br>
-                <h4 class="newspaper-headline">Experiences</h4>
+                <p>I developed the habit of self education and I always try to learn new technologies and methods. 
+                    I am also constantly trying to get better at collaboration, which I think is one key aspect to 
+                    work in groups and develop better software. I always try to write clean and modular code using 
+                    the best practices and object-oriented patterns. I like to write software that can be accessed 
+                    by everyone in any platform. I have experience and I like to create RESTful APIs, mobile apps
+                    web systems and sometimes intelligent systems.</p>
+                <h4 class="newspaper-headline">Qualifications</h4>
                 <p>
-                    I had a 6 months software engineering internship at FAST where I was a full-stack developer writing and debugging high quality code using primarly Java and ASP.NET MVC. While working there I had the opportunity to use agile software development, e.g. Scrum with small teams and Kanban to define and prioritize the back log in order to keep track of tasks that needed to be done. In one of my projects at FAST, I wrote the back-end of a Web App, so I contributed implementing a RESTful web service and its connection with the database, how to make an android and a web clients to request and get information to the RESTful API and how to parse the JSON that was being returned.
+                    My qualifications and interests range from fullstack web projects where I feel confortable to 
+                    work on both front-end technologies such as Angular and JavaScript, HTML, CSS and JQuery 
+                    as on the backend with ASP.NET, Django or Node and familiarity with RESTFull Web Services, 
+                    Micro Services, authentication, JSON Web Tokens and best practices of API implementation, 
+                    as well as having already used Firebase in some projects and integration with databases 
+                    such as MySQL, SQL Server and MongoDB.
                 </p>
                 <p>
-                    I also had a research assistant position at UFRPE where I holded a PIBIC Undergraduate Research recipient. I analyzed the use of Drupal as a CMS and I implemented a few functionalities to the core of the application. The primary goal was to create a framework where professors and faculty could easily create and maintain a web site with no previous knowledge of programming.
+                    Also, I have familiarity with mobile development and projects in android. I have knowledge of 
+                    the platform as a whole and the activity cycle, Android Studio and interface components and layouts. 
+                    Java knowledge, object orientation and design patterns. Experience with REST API integration 
+                    consuming and parsing JSON using the Volley library.
                 </p>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h4 class="newspaper-headline">Languages</h4>
-                </div>
-            </div>
-            <div class="row text-center">
-                <p>
-                    Java is probably the language that I'm more confortable with but I am also confident with Python, PHP and C#. Additionally I have experience with SQL(MySql, SQL SERVER), HTML, CSS, JQuery. Git as version control. Mobile development(Android, iOS) and web development. RESTful web services.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Resume</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row" style="text-align:center">
-                 <object width="820" height="1080" data="assets/resume-carlos-garcia.pdf"></object>
             </div>
         </div>
     </section>
@@ -171,63 +166,83 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4>SUATI | Software Engineer</h4>
-                        <h6>Mar 2017 – Mar 2018 | Recife, PE, Br</h6>
-                        <p class="text-muted">Acted as a software engineer for a desktop client-server application</p>
-                        <p class="text-muted">Worked with C#, WCF services and SQL Server/Oracle databases</p>
-                        <p class="text-muted">Wrote unit, integration and end-to-end testing for automation</p>
-                        <div class="chip">C#</div>
-                        <div class="chip">WCF</div>
-                        <div class="chip">SQL Server</div>
-                        <div class="chip">Oracle</div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <img class="img-responsive" src="assets/img/experience/suati.jpg" alt="">
+                        </div>
+                        <div class="col-md-10 col-sm-10">
+                            <h4>SUATI | Software Engineer</h4>
+                            <h6>Mar 2017 – Mar 2018 | Recife, PE, Br</h6>
+                        </div>
                     </div>
+                    <p class="text-muted">Acted as a software engineer for a desktop client-server application</p>
+                    <p class="text-muted">Worked with C#, WCF services and SQL Server/Oracle databases</p>
+                    <p class="text-muted">Wrote unit, integration and end-to-end testing for automation</p>
+                    <div class="chip">C#</div>
+                    <div class="chip">WCF</div>
+                    <div class="chip">SQL Server</div>
+                    <div class="chip">Oracle</div>
                 </div>
 
                 <div class="col-md-6 col-sm-6 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4>SUATI | Software Engineer Intern</h4>
-                        <h6>Sep 2015 – Fev 2017 | Recife, PE, Br</h6>
-                        <p class="text-muted">Fixed bugs reported by users in production</p>
-                        <p class="text-muted">Collaborated in a web project using ASP.NET MVC, HTML, CSS and JQuery</p>
-                        <p class="text-muted">Worked with Agile development, Sprints Review, Planning and Daily Meetings</p>
-                        <div class="chip">C#</div>
-                        <div class="chip">ASP.NET MVC</div>
-                        <div class="chip">SQL Server</div>
-                        <div class="chip">Oracle</div>
-                        <div class="chip">HTML</div>
-                        <div class="chip">JavaScript</div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <img class="img-responsive" src="assets/img/experience/suati.jpg" alt="">
+                        </div>
+                        <div class="col-md-10 col-sm-10">
+                            <h4>SUATI | Software Engineer Intern</h4>
+                            <h6>Sep 2015 – Fev 2017 | Recife, PE, Br</h6>
+                        </div>
                     </div>
+                    <p class="text-muted">Fixed bugs reported by users in production</p>
+                    <p class="text-muted">Collaborated in a web project using ASP.NET MVC, HTML, CSS and JQuery</p>
+                    <p class="text-muted">Worked with Agile development, Sprints Review, Planning and Daily Meetings</p>
+                    <div class="chip">C#</div>
+                    <div class="chip">ASP.NET MVC</div>
+                    <div class="chip">SQL Server</div>
+                    <div class="chip">Oracle</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">JavaScript</div>
                 </div>
 
                 <div class="col-md-6 col-sm-6 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4>State Street | Application Developer Intern</h4>
-                        <h6>June 2015 – Aug 2015 | Boston, MA, USA</h6>
-                        <p class="text-muted">Acted as a Full-Stack developer and team member in a fast-paced environment</p>
-                        <p class="text-muted">Helped migrate a hedge fund legacy application to a new one using Java and Angular</p>
-                        <p class="text-muted">Contributed to the implementation of continuous integration to the development cycle using Jenkins-CI</p>
-                        <div class="chip">Java</div>
-                        <div class="chip">Angular</div>
-                        <div class="chip">Continous Integration</div>
-                        <div class="chip">Jenkins-CI</div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <img class="img-responsive" src="assets/img/experience/state-street.png" alt="">
+                        </div>
+                        <div class="col-md-10 col-sm-10">
+                            <h4>State Street | Application Developer Intern</h4>
+                            <h6>June 2015 – Aug 2015 | Boston, MA, USA</h6>
+                        </div>
                     </div>
+                    <p class="text-muted">Acted as a Full-Stack developer and team member in a fast-paced environment</p>
+                    <p class="text-muted">Helped migrate a hedge fund legacy application to a new one using Java and Angular</p>
+                    <p class="text-muted">Contributed to the implementation of continuous integration to the development cycle using Jenkins-CI</p>
+                    <div class="chip">Java</div>
+                    <div class="chip">Angular</div>
+                    <div class="chip">Continous Integration</div>
+                    <div class="chip">Jenkins-CI</div>
                 </div>
     
                 <div class="col-md-6 col-sm-6 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4>FAST | Software Developer Intern</h4>
-                        <h6>Feb 2014 – Aug 2014 | Recife, PE, Br</h6>
-                        <p class="text-muted">Software development, coding and debugging using primarily ASP.NET MVC 5 Framework, Bootstrap, HTML, CSS and JQuery</p>
-                        <p class="text-muted">Worked on various ASP.NET projects and built test releases of those projects</p>
-                        <div class="chip">ASP.NET MVC</div>
-                        <div class="chip">C#</div>
-                        <div class="chip">HTML</div>
-                        <div class="chip">JavaScript</div>
-                        <div class="chip">CSS</div>
-                        <div class="chip">Bootstrap</div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <img class="img-responsive" src="assets/img/experience/fast.png" alt="">
+                        </div>
+                        <div class="col-md-10 col-sm-10">
+                            <h4>FAST | Software Developer Intern</h4>
+                            <h6>Feb 2014 – Aug 2014 | Recife, PE, Br</h6>
+                        </div>
                     </div>
+                    <p class="text-muted">Software development, coding and debugging using primarily ASP.NET MVC 5 Framework, Bootstrap, HTML, CSS and JQuery</p>
+                    <p class="text-muted">Worked on various ASP.NET projects and built test releases of those projects</p>
+                    <div class="chip">ASP.NET MVC</div>
+                    <div class="chip">C#</div>
+                    <div class="chip">HTML</div>
+                    <div class="chip">JavaScript</div>
+                    <div class="chip">CSS</div>
+                    <div class="chip">Bootstrap</div>
                 </div>
             </div>
         </div>
@@ -324,7 +339,7 @@
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -379,7 +394,7 @@
         </div>
     </section>
 
-    <footer class="bg-light-gray">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
